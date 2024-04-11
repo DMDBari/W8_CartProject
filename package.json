@@ -1,0 +1,19 @@
+{
+  "name": "cartproject",
+  "version": "1.0.0",
+  "description": "Weekend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "Dillon Dains",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
